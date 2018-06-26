@@ -7,7 +7,7 @@ class MyApp < Sinatra::Base
     erb :index
   end
   
-  get '/i-hope-this-works' do
+  get '/page2' do
     erb :page2
   end
 
